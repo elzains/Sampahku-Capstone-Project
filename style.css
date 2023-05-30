@@ -22,3 +22,58 @@ body {
     font-family: 'Poppins', sans-serif;
     background-color: var(--bg);
 }
+
+/* aboutComponent Start */
+#aboutComponent {
+    margin: 12px auto;
+}
+
+.desc {
+    width: 60%;
+    margin-top: 20px;
+}
+
+.team {
+    display: flex;
+    justify-content: center;
+}
+
+.team .row .col {
+    display: flex;
+    justify-content: space-around;
+}
+
+.team .row .col .card {
+    border: none;
+    padding: 15px;
+    box-shadow: rgba(0, 0, 0, 0.15) 0px 5px 15px 0px;
+}
+
+.card-title, .card-text {
+    font-size: 18px;
+}
+
+.row .col .card img {
+    border-radius: 12rem;
+}
+
+.card-body a {
+    width: 100px;
+}
+
+.text-center a {
+    width: 160px;
+    border-radius: 2rem;
+    background-color: var(--sc);
+    position: relative;
+    z-index: 2;
+    border: var(--sc);
+}
+
+.text-center a:hover {
+    width: 160px;
+    border-radius: 2rem;
+    background-color: #D9D9D9;
+    color: #000;
+}
+/* aboutComponent End */
