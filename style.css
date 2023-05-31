@@ -135,6 +135,51 @@ body {
 
 /* recylator end */
 
+/* Blog Start */
+.blog-wrapper {
+    margin: 32px auto;
+    display: flex;
+    justify-content: center;
+}
+
+.blog-wrapper .row h3 {
+    text-align: center;
+}
+
+.blog-wrapper .row {
+    display: flex;
+    justify-content: space-around;
+}
+
+.blog-wrapper .row .col {
+    display: flex;
+    justify-content: center;
+    margin-top: 12px;
+}
+
+.blog-wrapper .row .col .card {
+    box-shadow: rgba(0, 0, 0, 0.15) 0px 5px 15px 0px;
+}
+
+.blog-wrapper .row .col .card img {
+    border-radius: 0.2rem;
+}
+
+.blog-wrapper .row .col .card-body h5 {
+    font-size: 1rem;
+}
+
+.blog-wrapper .row .col .card-body h5 a {
+    text-decoration: none;
+    color: #1d1d1d;
+}
+
+.blog-wrapper .row .col .card-body h5 a:hover {
+    text-decoration: none;
+    color: #4b4b4b;
+}
+/* Blog End */
+
 /* Footer Start */
 footer {
     width: 100%;
