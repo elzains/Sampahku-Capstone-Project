@@ -140,6 +140,7 @@ body {
     margin: 32px auto;
     display: flex;
     justify-content: center;
+    margin-top:42px;
 }
 
 .blog-wrapper .row h3 {
